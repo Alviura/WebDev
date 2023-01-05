@@ -1,0 +1,59 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+     <title>Survey Form</title>
+    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SurveyForm.css">
+    <body>
+      <h1 id="title">Pixnar survey form</h1>
+      <p class="description" id="description">Thank you for making today's event a success by turning up.Please share your views about the event by filling this form.</p>
+
+        <form id="survey-form">
+         <div class="first">
+           <div class="group">
+           <label id="name-label" for="name">Name<input class="block"type="text" id="name" placeholder="Enter your name" required></label>
+           </div>
+         <div class="group">
+         <label id="email-label" for="email">Email<input class="block"type="email" id="email" placeholder="someone@example.com" required></label>
+         </div>
+         <div class="group">
+         <label id="number-label" for="number">Age(years)<input class="block"type="number" id="number" min="13" max="120" placeholder="Enter your age"></label>
+         </div>
+       <div class="group">
+        <Label>How did you get to know about the event:
+         <select class="block" id="dropdown">
+         <option>Pixnar News</option>
+         <option>Pixnar Youtube Channel</option>
+         <option>Pixnar Forum</option>
+         </select>
+         </label>
+         </div>
+         </div>
+         
+         <div class="second">
+         <label>Did the event meet your expectations?
+          <label><input type="radio" name="point-of-view" value="1"> Yes</label>
+          <label><input type="radio" name="point-of-view" value="2"> Neutral</label>
+          <label><input type="radio" name="point-of-view"value="3"> No</label>
+        </label>
+
+        <label>Overall, how would you rate the event?
+          <label><input type="checkbox" value="1">Awesome</label>
+          <label><input type="checkbox" value="2" name="rating">Very good</label>
+          <label><input type="checkbox" value="3" name="rating">Fairly good</label>
+          <label><input type="checkbox" value="4" name="rating">Midly good</label>
+          <label><input type="checkbox" value="5" name="rating">Not good at all</label>
+        </label>
+        </div>
+
+        <div class="third">
+          <label>What did you like about the event?<textarea class="textarea" placeholder="Share your views"></textarea></label>
+          <label>What did you dislike about the event?<textarea class="textarea" placeholder="Share your views"></textarea></label>
+          </fieldset>
+          <input class="submit" type="submit" id="submit" value="Submit">
+          </div>
+        </form>
+      </body>
+  </html>

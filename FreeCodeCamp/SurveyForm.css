@@ -1,0 +1,88 @@
+body {
+  background-image: linear-gradient(115deg,rgba(58, 58, 158, 0.8),
+  rgba(136, 136, 206, 0.7)
+  ),
+  url("tt.jpg");
+}
+form {
+  width: 80%;
+  max-width:500px;
+  min-width:300px; 
+  margin: 0 auto;
+  background: rgb(76, 76, 93);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.5rem;
+  
+}
+h1 {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+p {
+font-size: 1.125rem;
+
+}
+
+h1, p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-align:center;
+  color:azure
+}
+
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  color:
+}
+
+label {
+  display: block;
+  align-items: center;
+  margin: 0.5rem 0;
+  font-size:18px;
+}
+
+.first, .second, .third {
+  padding-bottom:0.5rem;
+}
+.group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0rem;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+
+.inline {
+  display: inline;
+}
+
+.textarea {
+  min-height: 100px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+.submit {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: grey;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
